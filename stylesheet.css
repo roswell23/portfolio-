@@ -167,8 +167,13 @@ body {
 
 /* About Section */
 .about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 6rem 0;
+  min-height: 100vh;
   background: var(--background);
+  text-align: center; 
 }
 
 .section-title {
@@ -180,6 +185,8 @@ body {
 
 .about-content {
   padding: 2rem 0 2rem 2rem;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .about-text {
@@ -238,8 +245,13 @@ body {
 
 /* Skills Section */
 .skills-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 6rem 0;
-  background: var(--section-bg);
+  min-height: 100vh;
+  background: var(--background);
+  text-align: center; 
 }
 
 .skill-card {
@@ -292,8 +304,13 @@ body {
 
 /* Projects Section */
 .projects-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 6rem 0;
+  min-height: 100vh;
   background: var(--background);
+  text-align: center; 
 }
 
 .project-card {
@@ -346,16 +363,16 @@ body {
 
 /* Contact Section */
 .contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 6rem 0;
-  background: var(--section-bg);
+  background: var(--background);  
 }
 
 .contact-info {
   padding: 2rem;
   background: var(--background);
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  height: 100%;
 }
 
 .contact-info h3 {
@@ -426,6 +443,9 @@ body {
   color: var(--background);
   padding: 2rem 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Responsive Design */
